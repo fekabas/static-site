@@ -8,3 +8,8 @@ Ctrl + Shift + P ==> Esto abre el command pallete y te deja seleccionar ente tus
 Buscas "add gitignore" y le das enter
 Escribis el lenguaje/framework que vas a usar en tu repo y le das enter
 -->
+
+The site contains
+* A paragraph describiing what I do.
+* An email contact form
+* Social media links section: IG, Spotify, Linkedin, Dev.to, Twitter, GitHub
