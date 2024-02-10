@@ -1,73 +1,102 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="./index.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>
-            Team leading and problem solving is what I live for
-        </h1>
+      <h1>HEADER/NAVBAR</h1>
     </header>
-    <main>
-        <section>
-            <h1>
-                About
-            </h1>
-            <p>Technology is here to create the future. Harnessing
-                it is a privilege. Let's work together to elevate human race's living conditions.</p>
-            <p>My name is Fernando. Born in Argentina in 1994.</p>
-        </section>
-        <section>
-            <h1>
-                Contact
-            </h1>
-            <h3>Get in touch through social media</h3>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/fernando-kabas/" class="fa fa-linkedin"></a></li>
-                <li><a href="https://www.instagram.com/fer.kabas/" class="fa fa-instagram"></a></li>
-                <li><a href="https://twitter.com/fekabas" class="fa fa-twitter"></a></li>
-                <li><a href="https://open.spotify.com/artist/5QBEbmtbi4LwIPSnYco1fm?si=CjGYOXucQGuYzFxbBxEfAg"
-                        class="fa fa-spotify"></a>
-                </li>
-                <li><a href="https://github.com/fekabas" class="fa fa-github"></a></li>
-                <li><a href="https://dev.to/fekabas">Dev.to</a></li>
-                <!-- Fontawesome dev.to icon class is class="fa-brands fa-dev" . TODO: get library-->
-            </ul>
-            <h3>Or write me an email!</h3>
-            <form>
-                <div class="container">
-                    <form action="">
-                        <label for="fname">Name</label>
-                        <input type="text" id="name" name="name" placeholder="...">
+    <main style="max-width: 1000px">
+      <section class="hero-section"><h1>HERO SECTION</h1><h2>Team leading and problem solving is what I live for</h2></section>
+      <section class="about-section">
+        <h1>About</h1>
+        <p>
+          Technology is here to create the future. Harnessing it is a privilege.
+          Let's work together to elevate human race's living conditions.
+        </p>
+        <p>My name is Fernando. Born in Argentina in 1994.</p>
+      </section>
+      <section class="contact-section">
+        <h1>Contact</h1>
+        <h3>Get in touch via email!</h3>
+        <form>
+          <div class="container">
+            <form action="">
+              <label for="fname">Name</label>
+              <input type="text" id="name" name="name" placeholder="..." />
 
-                        <label for="subject">Subject</label>
-                        <input type="text" id="subject" name="subject" placeholder="...">
+              <label for="subject">Subject</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="..."
+              />
 
-                        <label for="content">Content</label>
-                        <textarea id="content" name="content" placeholder="..." style="height:200px"></textarea>
-
-                        <input type="submit" value="Submit">
-                    </form>
-                </div>
+              <label for="content">Content</label>
+              <textarea
+                id="content"
+                name="content"
+                placeholder="..."
+                style="height: 200px"
+              ></textarea>
+              <div class="form-buttons">
+                <input type="submit" value="Send Email" />
+              </div>
             </form>
-        </section>
-        <section>
-            <h3>And whihle writing, listen to something!</h3>
-            <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/artist/5QBEbmtbi4LwIPSnYco1fm?utm_source=generator" width="100%"
-                height="380" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        </section>
+          </div>
+        </form>
+        <h3>Whihle you write, listen to something!</h3>
+        <iframe
+          style="border-radius: 12px"
+          src="https://open.spotify.com/embed/artist/5QBEbmtbi4LwIPSnYco1fm?utm_source=generator"
+          width="100%"
+          height="380"
+          frameborder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        ></iframe>
+        <h5>Social media links</h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/fernando-kabas/"
+              class="fa fa-linkedin"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/fer.kabas/"
+              class="fa fa-instagram"
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/fekabas" class="fa fa-twitter"></a>
+          </li>
+          <li>
+            <a
+              href="https://open.spotify.com/artist/5QBEbmtbi4LwIPSnYco1fm?si=CjGYOXucQGuYzFxbBxEfAg"
+              class="fa fa-spotify"
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/fekabas" class="fa fa-github"></a>
+          </li>
+          <li><a href="https://dev.to/fekabas">Dev.to</a></li>
+          <!-- Fontawesome dev.to icon class is class="fa-brands fa-dev" . TODO: get library-->
+        </ul>
+      </section>
     </main>
     <footer>
-        <h3>Privacy</h3>
-        <span>All Rights Reserved</span>
+      <h3>Privacy</h3>
+      <span>All Rights Reserved</span>
     </footer>
-</body>
-
+  </body>
 </html>
